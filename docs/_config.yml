@@ -1,19 +1,18 @@
 # Site settings
-title: Jekyll Doc Theme
-email: your-email@domain.com
+title: Simply 5G Security
+email: pienvandenabeele@gmail.com
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
-lang: en-US
+  Making 5G Security accessible for everyone!
+lang: en-UK
 
 baseurl: "/Simply5GSecurity/" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
+url: https://pienvandenabeele.github.io/Simply5GSecurity/ # the base hostname & protocol for your site
 git_address: https://pienvandenabeele.github.io/Simply5GSecurity/
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+git_edit_address: https://pienvandenabeele.github.io/Simply5GSecurity/blob/gh-pages
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
-bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+bootwatch: yeti # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
 # Build settings
 markdown: kramdown
@@ -32,7 +31,7 @@ exclude:
   - .gitignore
   - README.md
   - vendor
-timezone: Europe/Berlin
+timezone: Europe/Amsterdam
 defaults:
 - scope:
     path: _posts
