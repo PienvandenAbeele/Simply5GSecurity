@@ -1,11 +1,19 @@
-- title: Getting Started
+- title: 5G Security Overview
   docs:
-  - home
-  - themes
-  - customization
+  - 5gsecurity
 
-- title: Examples
+- title: General Requirements 5G Security
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - confidentiality
+  - integrity
+  - availability
+
+- title: Security Architecture
+  docs:
+  - architecture
+
+- title: Measures & Protocols
+  docs:
+  # - cheatsheet
+  # - font-awesome
+  # - bootstrap
