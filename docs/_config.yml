@@ -5,7 +5,7 @@ description: >
   Making 5G Security accessible for everyone!
 lang: en-UK
 
-baseurl: "/Simply5GSecurity/" # the subpath of your site, e.g. /blog/
+baseurl: "/Simply5GSecurity" # the subpath of your site, e.g. /blog/
 url: https://pienvandenabeele.github.io/Simply5GSecurity # the base hostname & protocol for your site
 git_address: https://pienvandenabeele.github.io/Simply5GSecurity
 git_edit_address: https://pienvandenabeele.github.io/Simply5GSecurity/blob/gh-pages
