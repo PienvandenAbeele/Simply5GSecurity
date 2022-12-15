@@ -1,7 +1,7 @@
 ---
 title: 5G Security
-permalink: /docs/5gsecurity/
-redirect_from: /docs/index.html
+permalink: /5gsecurity/
+redirect_from: /5gsecurity/index.html
 ---
 
 ## Getting started
