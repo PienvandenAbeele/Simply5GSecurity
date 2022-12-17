@@ -49,6 +49,15 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _basics
+    type: docs
+  values:
+    layout: docs
+    sectionid: basics
+    seo:
+      type: "WebPage"
+
 collections:
   docs:
     permalink: /:collection/:path/
