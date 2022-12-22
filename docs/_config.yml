@@ -24,6 +24,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+analytics: 
+  provider: "custom"
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -51,7 +54,7 @@ defaults:
 
 - scope:
     path: _basics
-    type: docs
+    type: basics
   values:
     layout: docs
     sectionid: basics
@@ -60,6 +63,9 @@ defaults:
 
 collections:
   docs:
+    permalink: /:collection/:path/
+    output: true
+  basics:
     permalink: /:collection/:path/
     output: true
   posts:
