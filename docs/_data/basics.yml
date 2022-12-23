@@ -1,7 +1,5 @@
 - title: 5G basics
   docs:
   - 5gbasics
-
-- title: test
-  docs:
-  - cheatsheet
+  - amf
+  - smf
