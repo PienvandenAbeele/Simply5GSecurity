@@ -54,7 +54,7 @@ the items to a comma delimited string. Split turns it into an array again.
 {% endif %}
 
 {% if page.sectionid=='basics' %} 
-  {% assign docs = site.data.docs | map: 'docs' | join: ',' | split: ',' %}
+  {% assign docs = site.data.basics | map: 'docs' | join: ',' | split: ',' %}
 
   {% comment %}
   Because this is built for every page, lets find where we are in the ordered
