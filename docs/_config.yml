@@ -2,7 +2,7 @@
 title: Simply 5G Security
 email: pienvandenabeele@gmail.com
 description: >
-  Making 5G Security accessible for everyone!
+  Making 5G Security comprehensible!
 lang: en-UK
 
 baseurl: "/Simply5GSecurity" # the subpath of your site, e.g. /blog/
@@ -72,4 +72,4 @@ collections:
     permalink: /blog/:year/:month/:day/:title/
     output: true
 
-remote_theme: aksakalli/jekyll-doc-theme@gh-pages 
+# remote_theme: aksakalli/jekyll-doc-theme@gh-pages 

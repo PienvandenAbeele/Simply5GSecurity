@@ -1,5 +1,12 @@
 - title: 5G basics
   docs:
   - 5gbasics
+  - ue
+  - core
+  - nrf
   - amf
   - smf
+  - ausf
+  - udm
+  - udr
+  - upf
