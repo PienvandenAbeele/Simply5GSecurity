@@ -3,6 +3,9 @@
   - 5gbasics
   - ue
   - core
+
+- title: Network Functions
+  docs:
   - nrf
   - amf
   - smf

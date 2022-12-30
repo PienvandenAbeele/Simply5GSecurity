@@ -1,5 +1,5 @@
 ---
-title: 5G Basics
+title: 5G Introduction
 permalink: /docs/5gbasics/
 redirect_from: /docs/5gbasics.md
 ---
