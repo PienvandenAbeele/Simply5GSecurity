@@ -4,7 +4,7 @@ permalink: /docs/architecture/
 ---
 <style>body {text-align: justify}</style>
 
- <img src="{{ "/assets/img/sec/Arch.png" | relative_url }}" alt="5G Overview" class="img-responsive center"/> 
+ <img src="{{ "/assets/img/Sec/Arch.png" | relative_url }}" alt="5G Overview" class="img-responsive center"/> 
 
 ME: Mobile Entity
 

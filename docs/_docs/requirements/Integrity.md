@@ -9,7 +9,7 @@ permalink: /docs/integrity/
 
 Integrity in the mobile network ensures that traffic is not changed or destroyed. When you send a message to a loved one saying “I love you”, an attacker can not change the traffic packet changing it to something else. But it also includes an attacker who can not change the address, making the message go to someone else. Often this is achieved through a checksum on the packets.
 
-<img src="{{ "/assets/img/sec/Int.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+<img src="{{ "/assets/img/Sec/Int.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
 
 | Mobile network aims              | Explanation | What they combat          | 3GPP Specifications |
 | -------------                    | ----------- |-------------              | --------- |

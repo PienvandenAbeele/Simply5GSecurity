@@ -9,7 +9,7 @@ permalink: /docs/availability/
 
 Availability in the mobile network makes the network always available to everyone. An important example of this is when there is a power outage, a lot of accidents can happen and thus it is very important people are still able to call the emergency line.
 
-<img src="{{ "/assets/img/sec/Avail.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+<img src="{{ "/assets/img/Sec/Avail.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
 
 | Mobile network aims  | Explanation | What they combat          | 3GPP Specifications |
 | -------------        | ------------|-------------              | ------- |

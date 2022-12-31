@@ -15,4 +15,4 @@ For authentication TLS supports three models:
 As decided by the 3GPP in the specifications, all NFs need to use two-way authentication, to make sure both parties are legit.
 Therefore, TLS is of uttermost importance to ensure a secure network, as it will protect the data that is being sent around and it will ensure only legit parties are involved. Thus the information NFs send each other is protected against attackers who want to see what is happening, possibly changing this data for their advantage or attackers who pretend to be a NF.
 
-<img src="{{ "/assets/img/sec/TLS.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+<img src="{{ "/assets/img/Sec/TLS.png" | relative_url }}" alt="5G Overview" class="img-responsive center">

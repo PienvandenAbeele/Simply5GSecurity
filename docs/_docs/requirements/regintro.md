@@ -7,7 +7,7 @@ permalink: /docs/reqintro/
 Security requirements are based on the CIA triad, which stands for Confidentiality, Integrity and Availability. 
 These three categories are used to find vulnerabilities and to create solutions. The reason the CIA triad is used in (almost) all security specifications of systems, is that it splits up the possible threats. For each of the three categories, one can decide if it is needed for the specific system. 
 
-<img src="{{ "/assets/img/sec/CIA_TRIAD.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+<img src="{{ "/assets/img/Sec/CIA_TRIAD.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
 
 For example, the distribution of a software update by the mobile network operator. Integrity is very important since the content of the update send over the network, can not be tampered with or it will not work anymore. However, confidentiality is not as important, since it is a publicly available update, which the provider wants everyone to have.
 

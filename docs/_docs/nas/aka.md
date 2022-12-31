@@ -30,7 +30,7 @@ If successful, the AUSF will then send an authentication request to the UDM. The
 
 The UDM will start the 5G-AKA by sending the authentication response back to the AUSF. This response contains an AUTH Token, SUPI, Crypto token (XRES) (REF), AUSF Key (KAUSF) and some extra data.
 
-<img src="{{ "/assets/img/sec/SUCI_Flow.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+<img src="{{ "/assets/img/Sec/SUCI_Flow.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
 
 The AUSF will then compute the hash of the expected response token (HXRES) and stores the KAUSF. Next, the authentication response will be sent to the AMF, along with the AUTH Token and the HXRES. Only when the UE Authentication is successful, the SUPI is sent to the AMF.
 The AMF stores the HXRES and sends the AUTH token in an authentication request to the UE. The UE can then validate the AUTH token with the secret key it shares with the home network. When successful, the UE will consider the network to be authenticated. However, the UE will continue the authentication by computing and sending the AMF a RES token to the AMF. The AMF will send this RES token to the AUSF for validation. As mentioned above, if this validation is successful, the AUSF will send the SUPI of the UE to the AMF.
@@ -44,5 +44,5 @@ To derive keys certain cryptographic algorithms are used. The 3GPP has defined w
 ### Key Hierarchy
 See image. The reason there is a key hierarchy is the fact keys are derived from other keys and thus further protecting the master key. If one key gets leaked, it does not reveal the secret key, as it is a derivation. With a deeper key hierarchy, this security feature is even stronger.
 
-<img src="{{ "/assets/img/sec/SUPI_ENCR.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+<img src="{{ "/assets/img/Sec/SUPI_ENCR.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
 

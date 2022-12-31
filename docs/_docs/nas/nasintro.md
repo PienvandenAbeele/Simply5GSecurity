@@ -9,6 +9,6 @@ permalink: /docs/nasintro/
         Network Access Security can be split up into three different areas: Identification, Authentication and Key Agreement and Security Activation.
     </div>
     <div class="col-md-6">
-        <img src="{{ "/assets/img/sec/I_AKA_SA.png" | relative_url }}" alt="5G Overview" class="img-responsive centernas">      
+        <img src="{{ "/assets/img/Sec/I_AKA_SA.png" | relative_url }}" alt="5G Overview" class="img-responsive centernas">      
     </div>
 </div>

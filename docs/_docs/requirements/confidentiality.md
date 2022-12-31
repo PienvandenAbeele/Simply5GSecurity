@@ -9,7 +9,7 @@ permalink: /docs/confidentiality/
 
 In the mobile network, confidentiality is important to ensure no one but the required parties can see the information. For example, when calling a loved one, if an attacker were to snoop around on the network, they can see the traffic, but do not know what it says or who it is for. This is established by encrypting the traffic data.
 
-<img src="{{ "/assets/img/sec/Conf.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+<img src="{{ "/assets/img/Sec/Conf.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
 
 
 | Mobile network aims                          | Explanation     | What they combat          | 3GPP Specifications |
