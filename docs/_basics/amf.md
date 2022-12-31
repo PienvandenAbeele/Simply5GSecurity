@@ -2,6 +2,7 @@
 title: Access and Mobility Management Function (AMF)
 permalink: /docs/amf/
 ---
+<style>body {text-align: justify}</style>
 
 ### Description
 The AMF is responsible for the connection and management between the 5G core network, and the UE. The AMF will keep track of who is allowed to connect with the 5G network, where the UE is during the connection and if the UE is still reachable. These 4 responsibilities are called (respectfully) Registration Management, Connection Management, Mobility Management and Reachability Management.

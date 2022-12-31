@@ -2,6 +2,8 @@
 title: Network Basics
 permalink: /docs/ue/
 ---
+<style>body {text-align: justify}</style>
+
 ## User Equipement (UE):
 Any device connected to the 5G network, which is usually a mobile phone together with a SIM card. The UE connects with the RAN. Often the UE requests a service that the 5G network will transfer to where ever it needs to go. Like a Whatsapp message to a loved one.
 <img src="{{ "/assets/img/5gbasics/ue_ran.png" | relative_url }}" alt="5G Overview" class="img-responsive center">

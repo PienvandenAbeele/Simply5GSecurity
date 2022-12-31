@@ -2,6 +2,8 @@
 title: Authentication Server Function (AUSF)
 permalink: /docs/ausf/
 ---
+<style>body {text-align: justify}</style>
+
 ### Description
 The AUSF authenticates the UE. It stores the keys exchanged between the 5G network and the UE. When the AMF needs to authenticate the UE connected to the network, it will ask the AUSF.
 

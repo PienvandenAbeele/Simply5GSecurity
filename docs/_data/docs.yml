@@ -1,9 +1,6 @@
-- title: 5G Security Overview
-  docs:
-  - 5gsecurity
-
 - title: 5G Security Requirements 
   docs:
+  - reqintro
   - confidentiality
   - integrity
   - availability
@@ -12,8 +9,15 @@
   docs:
   - architecture
 
-- title: Measures & Protocols
+- title: Network Access Security
   docs:
-  # - cheatsheet
-  # - font-awesome
-  # - bootstrap
+  - nasintro
+  - identification
+  - aka
+  - sa
+
+- title: SBA Domain Security
+  docs:
+  - sbaintro
+  - tls
+  - oauth

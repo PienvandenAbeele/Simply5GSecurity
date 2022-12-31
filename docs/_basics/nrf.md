@@ -2,6 +2,7 @@
 title: Network Repository Function (NRF)
 permalink: /docs/nrf/
 ---
+<style>body {text-align: justify}</style>
 
 ### Description
 The Network Repository Function (NRF) keeps track of all the NFs. NFs will register at the NRF and then when a NF needs to talk to another NF, the NRF allows them to discover each other.

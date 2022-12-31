@@ -2,6 +2,7 @@
 title: User Plane Function (UPF) 
 permalink: /docs/upf/
 ---
+<style>body {text-align: justify}</style>
 
 ### Description
 The User Plane Function (UDF) interconnects the Data Network with the 5G core.

@@ -2,6 +2,7 @@
 title: User Data Repository (UDR)
 permalink: /docs/udr/
 ---
+<style>body {text-align: justify}</style>
 
 ### Description
 The UDR is the database of the 5G Core. It is used by NFs to store their data. It offers storage for subscription, authentication, application, etc in a unified database.

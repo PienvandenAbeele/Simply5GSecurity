@@ -2,6 +2,7 @@
 title: Unified Data Management (UDM)
 permalink: /docs/udm/
 ---
+<style>body {text-align: justify}</style>
 
 ### Description
 The UDM stores the security credentials for the users and additional subscription information. Using that information, the UDM provides service for the authentication of subscribers, e.g., ensuring that customers only have access to their subscribed services.

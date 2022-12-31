@@ -2,6 +2,7 @@
 title: Session Management Function (SMF)
 permalink: /docs/smf/
 ---
+<style>body {text-align: justify}</style>
 
 ### Description
 The SMF collects the information related to all sessions and manages them. The SMF gets information from different NFs and orchestrates those network components based on the requests from the AMF.

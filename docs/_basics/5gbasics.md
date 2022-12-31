@@ -3,6 +3,7 @@ title: 5G Introduction
 permalink: /docs/5gbasics/
 redirect_from: /docs/5gbasics.md
 ---
+<style>body {text-align: justify}</style>
 
 5G is the successor of 4G and the next mobile network generation. With the introduction of 5G, the mobile network improves in a lot of areas:
 
