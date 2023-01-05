@@ -16,11 +16,11 @@ the items to a comma delimited string. Split turns it into an array again.
     {% if document_url == page.url %}
       <ul class="pager">
         {% if forloop.first %}
-          <li class="previous disabled">
+          <!-- <li class="previous disabled">
             <a>
               <span aria-hidden="true">&larr;</span> Previous
             </a>
-          </li>
+          </li> -->
         {% else %}
           {% assign previous = forloop.index0 | minus: 1 %}
           {% assign previous_page = docs[previous] | prepend:"/docs/" | append:"/" %}
@@ -32,11 +32,11 @@ the items to a comma delimited string. Split turns it into an array again.
         {% endif %}
 
         {% if forloop.last %}
-          <li class="next disabled">
+          <!-- <li class="next disabled">
             <a>
               Next <span aria-hidden="true">&rarr;</span>
             </a>
-          </li>
+          </li> -->
         {% else %}
           {% assign next = forloop.index0 | plus: 1 %}
           {% assign next_page = docs[next] | prepend:"/docs/" | append:"/" %}
@@ -67,11 +67,11 @@ the items to a comma delimited string. Split turns it into an array again.
     {% if document_url == page.url %}
       <ul class="pager">
         {% if forloop.first %}
-          <li class="previous disabled">
+          <!-- <li class="previous disabled">
             <a>
               <span aria-hidden="true">&larr;</span> Previous
             </a>
-          </li>
+          </li> -->
         {% else %}
           {% assign previous = forloop.index0 | minus: 1 %}
           {% assign previous_page = docs[previous] | prepend:"/docs/" | append:"/" %}
@@ -83,11 +83,11 @@ the items to a comma delimited string. Split turns it into an array again.
         {% endif %}
 
         {% if forloop.last %}
-          <li class="next disabled">
+          <!-- <li class="next disabled">
             <a>
               Next <span aria-hidden="true">&rarr;</span>
             </a>
-          </li>
+          </li> -->
         {% else %}
           {% assign next = forloop.index0 | plus: 1 %}
           {% assign next_page = docs[next] | prepend:"/docs/" | append:"/" %}

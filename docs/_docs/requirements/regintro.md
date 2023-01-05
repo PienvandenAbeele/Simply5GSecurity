@@ -13,3 +13,4 @@ For example, the distribution of a software update by the mobile network operato
 
 Therefore CIA is also used in the <a href="https://www.etsi.org/deliver/etsi_ts/129500_129599/129509/17.07.00_60/ts_129509v170700p.pdf">3GPP Specifications</a> to define which security properties each component of the 5G network needs to have. For example, the UE needs to have integrity and availability, and for each of the NFs, it is defined which of the CIAs they need to provide.
 
+

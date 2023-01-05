@@ -5,7 +5,7 @@ permalink: /docs/upf/
 <style>body {text-align: justify}</style>
 
 ### Description
-The User Plane Function (UDF) interconnects the Data Network with the 5G core.
+The User Plane Function (UPF) interconnects the Data Network with the 5G core.
 The UDF sends traffic packets forward and makes sure they are sent to the correct place. It also inspects said packets and makes sure the Quality of Service is upheld (QoS).
 
 <img src="{{ "/assets/img/5gbasics/upf_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
@@ -14,7 +14,7 @@ The UDF sends traffic packets forward and makes sure they are sent to the correc
 
 | Consumes services from    | Provices services to  | 
 | -------------             |-------------          |
-| SMF                       | ??                    |
+| SMF                       | None                    |
 
 <img src="{{ "/assets/img/5gbasics/upf_rba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
 
@@ -23,3 +23,4 @@ The UDF sends traffic packets forward and makes sure they are sent to the correc
 
 ### Security importance
 It ensures the QoS of internet packets that are sent. It has to protect the messages being sent between the Core, DN and UE.
+

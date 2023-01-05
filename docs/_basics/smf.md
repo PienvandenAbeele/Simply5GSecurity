@@ -21,4 +21,4 @@ The SMF collects the information related to all sessions and manages them. The S
 <a href="https://www.etsi.org/deliver/etsi_ts/129500_129599/129502/17.06.00_60/ts_129502v170600p.pdf">3GPP Specifications</a>
 
 ### Security importance
-The SMF handles the information between sessions, and thus also checks the security of sessions. Therefore it is essential for the security of the network that the SMF works.
+The SMF handles the information between sessions, and thus also checks the security of sessions. If sessions are insecure, it creates a possibility for attacks like man-in-the-middle attacks, spoofing or DDos attacks. Therefore it is essential for the security of the network that the SMF works.
