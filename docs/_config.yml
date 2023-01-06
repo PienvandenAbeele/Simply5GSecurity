@@ -36,12 +36,12 @@ exclude:
   - vendor
 timezone: Europe/Amsterdam
 defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-    sectionid: blog
+# - scope:
+#     path: _posts
+#     type: posts
+#   values:
+#     layout: post
+#     sectionid: blog
 
 - scope:
     path: _docs
@@ -68,8 +68,8 @@ collections:
   basics:
     permalink: /:collection/:path/
     output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
+  # posts:
+  #   permalink: /blog/:year/:month/:day/:title/
+  #   output: true
 
 # remote_theme: aksakalli/jekyll-doc-theme@gh-pages 

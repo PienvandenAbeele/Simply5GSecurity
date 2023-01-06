@@ -27,6 +27,5 @@ redirect_from: /docs/5gbasics.md
 This also introduces more complexity to the network, which introduces more possible security risks. With more complexity, there are more possibilities something goes wrong. If a system manager needs to implement a lot of different steps, there is a greater risk they missed something, which can lead to security risks. Therefore services like <a href="{{ "/docs/identification/" | relative_url }}">SUCI</a> and <a href="{{ "/docs/oauth/" | relative_url }}">OAuth 2.0</a> are there to combat these risks and create a secure network.
 But first, we will focus on explaining the 5G Architecture, and the function of all the components.
 
-# 3GPP explanation
-
-- Je hebt bij elke NF die link to specifications staan, wat ik nog een beetje mis is een uitleg ergens van wat 3GPP doet en dat zij dus die specifications maken die iedereen in principde kan implementeren en dat het dan goed samenwerkt met elkaar.
+### Who are the 3GPP?
+Throughout our website, we often mention the <a href="https://www.3gpp.org">3GPP</a>, which is a 3rd Generation Partnership Project. They unite telecommunications standards to a standard known as the 3GPP standard. Everyone can follow the 3GPP standards when implementing, for example a 5G core, and they will have the certainty is they follow the specifications, the system will work accordingly.
