@@ -4,13 +4,24 @@ permalink: /docs/core/
 ---
 <style>body {text-align: justify}</style>
 
-The 5G architecture is based on a service-based architecture (SBA). A service based architecture is focussed on the services a component offers. In 5G, the Network Functions are different components which talk to each other through a message bus (see image). The network is built upon Network Functions communicating with each other through a message bus. When a NF needs information from another NF, it will communicate with said function through the message bus and exchange information. An important aspect of SBA is the separation of the control-plane and user-plane. Let us take a look at what that means:
+The 5G Core Network (5GC) is the next-generation core network for 5G network. An important aspect of the design of the 5G core is the separation into control-plane and user-plane. The **control-plane** carries all signalling traffic, which is used to *build up and maintain* a user-plane connection, e.g., an Internet connection. In contrast, the **user-plane** data carries all user traffic, e.g., the actual IP traffic that is generated when visiting a website. 
 
-The network planes all carry different types of traffic data. The user-plane carries traffic from the network user, which are packets from and to the user. The control-plane carries the signalling traffic, which are packets from and to the router. What they did in 5G compared to other generations of networks, is move the control-plane to a software-based architecture, instead of having the user and control plane together. 
-By doing so, they enable more freedom to network managers, since they can now change the control plane configuration, without having to touch the user-plane. As you can see in the image (REF), the 5G Core Network is the control plane, and the user-plane is the UPF function between the RAN and the DN. This is a big performance and implementation improvement compared to 4G. Before with 4G, the control-plane and user-plane were both implemented in the hardware. Since the control-plane is now software-based in 5G, everyone can deploy a 5G Core Network now, since it is the software instead of hardware now. Scaling up and changing configurations becomes much easier that way.
 
-<img src="{{ "/assets/img/5gbasics/planes.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
 
-While this gives more flexibility and scaling options, it also brings security concerns. Since the control-plane is now software-based, if something is misconfigured or there is a vulnerability in the Core, attackers can now access the Core from a distance, instead of having to be at the hardware. To avoid this, we want to educate people on the security risks, see 5G Security, for more details.
+<div class="row">
+    <div style="text-align: justify" class="col-md-4">
+    <br>
+        In both planes the core consist of so-called network functions (NF) to support a wide range of services to other network functions. A common perspective on the core network architecture is the service-based architecture. In this architecture each of the network functions offer a service end point and the network functions communicate via a message bus to the services end points accordingly. 
+    <br>
+    </div>
+    <div class="col-md-8">
+        <img src="{{ "/assets/img/5gbasics/planes.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+    </div>
+</div>
+
+Both the user-control plane separation and the use of the network functions have the advantage to build up a fully software defined 5G network. This is brings more flexibility and scaling options to the network. Scaling up and changing configurations becomes much easier that way. For example, the network operator can easily add more resources when needed by to a specific area. This idea is often realised by cloud native deployments which use virtualisation technologies such as Kubernetes.
+
+
+While this gives more flexibility and scaling options, it also brings security concerns. Since the control-plane is now software-based, if something is misconfigured or there is a vulnerability in the Core, attackers can now access the core from a distance, instead of having to be at the hardware. To avoid this, we want to educate people on the security risks, see <a href="{{ "/docs/reqintro/" | relative_url }}">5G Security</a>, for more details.
 
 For now, we move on to the Network Functions and what each of them does!
