@@ -5,22 +5,33 @@ permalink: /docs/upf/
 <style>body {text-align: justify}</style>
 
 ### Description
-The User Plane Function (UPF) interconnects the Data Network with the 5G core.
-The UDF sends traffic packets forward and makes sure they are sent to the correct place. It also inspects said packets and makes sure the Quality of Service is upheld (QoS).
 
-<img src="{{ "/assets/img/5gbasics/upf_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+<div class="row">
+    <div style="text-align: justify" class="col-md-5">
+        The UPF (User Plane Function) is the key component of the 5G user plane.  It acts as a bridge between the UE and the data network, i.e., the Internet, forwarding data packets between them and applying routing and forwarding policies as needed. For doing so it is configured by the SMF via the N4 interface.      
+    </div>
+    <div class="col-md-7">
+        <img src="{{ "/assets/img/5gbasics/upf_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+    </div>
+</div>
 
-### Interaction with other NFs:
-
-| Consumes services from    | Provices services to  | 
-| -------------             |-------------          |
-| SMF                       | None                    |
-
-<img src="{{ "/assets/img/5gbasics/upf_rba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
-
-### Link to the specifications
-<a href="https://www.etsi.org/deliver/etsi_ts/133500_133599/133513/17.00.00_60/ts_133513v170000p.pdf">3GPP Specifications</a>
+<div class="row">
+    <div style="text-align: justify" class="col-md-6">
+        <h3>Interaction with other NFs</h3>
+        <h5> Consumes services from:</h5>
+        SMF
+        <h5> Provides services to:</h5>
+        -
+        <br>
+        <br>
+        <br>
+        <p><a class="btn btn-info btn-sm centerbut" href="https://www.etsi.org/deliver/etsi_ts/133500_133599/133513/17.00.00_60/ts_133513v170000p.pdf" target="_blank" rel="noopener noreferrer">3GPP Specifications</a></p>
+    </div>
+    <div class="col-md-6">
+    <br>
+        <img src="{{ "/assets/img/5gbasics/upf_rba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+    </div>
+</div>
 
 ### Security importance
-It ensures the QoS of internet packets that are sent. It has to protect the messages being sent between the Core, DN and UE.
-
+The UPF handles the actual user data, e.g., the IP traffic. A compromised UPF implies that the user data of the customers can be intercepted or manipulated. Ensuring the UPF’s integrity shall be the highest priority.  

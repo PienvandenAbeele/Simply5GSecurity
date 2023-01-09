@@ -41,3 +41,10 @@ To derive keys certain cryptographic algorithms are used. The 3GPP has defined w
 See image. The reason there is a key hierarchy is the fact keys are derived from other keys and thus further protecting the master key. If one key gets leaked, it does not reveal the secret key, as it is a derivation. With a deeper key hierarchy, this security feature is even stronger.
 
 <img src="{{ "/assets/img/Sec/SUPI_ENCR.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+
+
+<!-- ## Home Control (for the AKA page)
+
+Home control is a new 5G security feature for the AKA that is used to verify the location of a device when it is roaming, i.e., connected to a "visited network". During the Authentication and Key Agreement in the roaming scenario, the home network is able to verify if a UE is actually in the visited network when it receives a request from a visited network. 
+
+Home control was added to address vulnerabilities of 3G and 4G. These vulnerabilities allow attackers to send false messages to the home network, pretending to be visiting the network. These fake messages were used to request sensitive information such as authentication tokens and derived keys. That information could then be used to intercept voice calls and text messages. -->

@@ -5,21 +5,32 @@ permalink: /docs/ausf/
 <style>body {text-align: justify}</style>
 
 ### Description
-The AUSF authenticates the UE. It stores the keys exchanged between the 5G network and the UE. When the AMF needs to authenticate the UE connected to the network, it will ask the AUSF. The AUSF support the AMF in its *registration management* function.
 
-<img src="{{ "/assets/img/5gbasics/ausf_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+<div class="row">
+    <div style="text-align: justify" class="col-md-5">
+        The AUSF is a 5G core network component responsible for authenticating the UE in coordination with the UDM and AMF. Therefore, the AUSF provides services to the AMF, allowing it to request an authentication token. The UDM gives the AUSF temporary keys and authentication data during this process. On the <a href="{{ "/docs/aka/" | relative_url }}">authentication and key agreement (AKA)</a> page, you can find more information on this process. 
+    </div>
+    <div class="col-md-7">
+        <img src="{{ "/assets/img/5gbasics/ausf_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+    </div>
+</div>
 
-### Interaction with other NFs:
-
-| Consumes services from            | Provides services to  | 
-| -------------                     |-------------          |
-| UDM, AMF                          | NRF                   |
-
-<img src="{{ "/assets/img/5gbasics/ausf_rba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
-
-### Link to the specifications
-<a href="https://www.etsi.org/deliver/etsi_ts/129500_129599/129509/17.07.00_60/ts_129509v170700p.pdf">3GPP Specifications</a>
+<div class="row">
+    <div style="text-align: justify" class="col-md-6">
+        <h3>Interaction with other NFs</h3>
+        <h5> Consumes services from:</h5>
+        NRF
+        <h5> Provides services to:</h5>
+        UDM, AMF
+        <br>
+        <br>
+        <br>
+        <p><a class="btn btn-info btn-sm centerbut" href="https://www.etsi.org/deliver/etsi_ts/129500_129599/129509/17.07.00_60/ts_129509v170700p.pdf" target="_blank" rel="noopener noreferrer">3GPP Specifications</a></p>
+    </div>
+    <div class="col-md-6">
+        <img src="{{ "/assets/img/5gbasics/ausf_rba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
+    </div>
+</div>
 
 ### Security importance
-Since the AUSF is responsible for verifying the identity of devices connecting with the Core Network, it is an essential part of the security since it will detect devices which are not allowed to connect for example.
-In addition to its role in access control and authentication, the AUSF also helps to protect against potential security threats by implementing various security measures such as encryption, firewalls, and intrusion detection systems. These measures help to protect against attacks such as man-in-the-middle attacks, denial-of-service attacks, and other types of cyber threats. The operator configuring the system has control over the depth of these security measures, but they should be supported according to the 3GPP specifications.
+In its function for managing the authentication of the UE, the AUSF is very important for the security of the network. The AUSF is responsible of implement increased home control when performing the <a href="{{ "/docs/aka/" | relative_url }}">authentication and key agreement</a> procedure.
