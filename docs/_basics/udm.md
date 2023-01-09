@@ -8,7 +8,7 @@ permalink: /docs/udm/
 In a 5G network, the UDM (Unified Data Management) generates authentication tokens used during the <a href="{{ "/docs/aka/" | relative_url }}">authentication and key agreement (AKA)</a> procedure. 
 <div class="row">
     <div style="text-align: justify" class="col-md-5">
-        The generation is based on user subscription data, which it retrieves from the <a href="{{ "/docs/udr/" | relative_url }}">User Data Repository</a>. Often co-located with the UDM is the Subscription Identifier De-concealing function (SIDF) that is used during the identification phase to resolve the Subscription Permanent Identifier (SUPI) from the Subscription Concealed Identifier (SUCI), this is explained in <a href="{{ "/docs/aka/" | relative_url }}">AKA</a> as well.
+        The generation is based on user subscription data, which it retrieves from the <a href="{{ "/docs/udr/" | relative_url }}">User Data Repository (UDR)</a>. Often co-located with the UDM is the Subscription Identifier De-concealing function (SIDF) that is used during the identification phase to resolve the Subscription Permanent Identifier (SUPI) from the Subscription Concealed Identifier (SUCI), this is explained in <a href="{{ "/docs/aka/" | relative_url }}">AKA</a> as well.
     </div>
     <div class="col-md-7">
         <img src="{{ "/assets/img/5gbasics/udm_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
