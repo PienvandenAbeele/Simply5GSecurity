@@ -8,7 +8,7 @@ permalink: /docs/upf/
 
 <div class="row">
     <div style="text-align: justify" class="col-md-5">
-        The UPF (User Plane Function) is the key component of the 5G user plane.  It acts as a bridge between the UE and the data network, i.e., the Internet, forwarding data packets between them and applying routing and forwarding policies as needed. For doing so it is configured by the SMF via the N4 interface.      
+        The UPF (User Plane Function) is the key component of the 5G user plane.  It acts as a bridge between the <a href="{{ "/docs/ue/" | relative_url }}">UE</a> and the data network, i.e., the Internet, forwarding data packets between them and applying routing and forwarding policies as needed. For doing so it is configured by the <a href="{{ "/docs/smf/" | relative_url }}">SMF</a> via the N4 interface.      
     </div>
     <div class="col-md-7">
         <img src="{{ "/assets/img/5gbasics/upf_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
@@ -19,7 +19,7 @@ permalink: /docs/upf/
     <div style="text-align: justify" class="col-md-6">
         <h3>Interaction with other NFs</h3>
         <h5> Consumes services from:</h5>
-        SMF
+        <a href="{{ "/docs/smf/" | relative_url }}">SMF</a>
         <h5> Provides services to:</h5>
         -
         <br>

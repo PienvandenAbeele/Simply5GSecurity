@@ -8,7 +8,7 @@ permalink: /docs/ausf/
 
 <div class="row">
     <div style="text-align: justify" class="col-md-5">
-        The AUSF is a 5G core network component responsible for authenticating the UE in coordination with the UDM and AMF. Therefore, the AUSF provides services to the AMF, allowing it to request an authentication token. The UDM gives the AUSF temporary keys and authentication data during this process. On the <a href="{{ "/docs/aka/" | relative_url }}">authentication and key agreement (AKA)</a> page, you can find more information on this process. 
+        The AUSF is a 5G core network component responsible for authenticating the <a href="{{ "/docs/ue/" | relative_url }}">UE</a> in coordination with the <a href="{{ "/docs/udm/" | relative_url }}">UDM</a> and <a href="{{ "/docs/amf/" | relative_url }}">AMF</a>. Therefore, the AUSF provides services to the <a href="{{ "/docs/amf/" | relative_url }}">AMF</a>, allowing it to request an authentication token. The <a href="{{ "/docs/udm/" | relative_url }}">UDM</a> gives the AUSF temporary keys and authentication data during this process. On the <a href="{{ "/docs/aka/" | relative_url }}">authentication and key agreement (AKA)</a> page, you can find more information on this process. 
     </div>
     <div class="col-md-7">
         <img src="{{ "/assets/img/5gbasics/ausf_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
@@ -19,9 +19,9 @@ permalink: /docs/ausf/
     <div style="text-align: justify" class="col-md-6">
         <h3>Interaction with other NFs</h3>
         <h5> Consumes services from:</h5>
-        NRF
+        <a href="{{ "/docs/nrf/" | relative_url }}">NRF</a>
         <h5> Provides services to:</h5>
-        UDM, AMF
+        <a href="{{ "/docs/udm/" | relative_url }}">UDM</a>, <a href="{{ "/docs/amf/" | relative_url }}">AMF</a>
         <br>
         <br>
         <br>
@@ -33,4 +33,4 @@ permalink: /docs/ausf/
 </div>
 
 ### Security importance
-In its function for managing the authentication of the UE, the AUSF is very important for the security of the network. The AUSF is responsible of implement increased home control when performing the <a href="{{ "/docs/aka/" | relative_url }}">authentication and key agreement</a> procedure.
+In its function for managing the authentication of the  <a href="{{ "/docs/ue/" | relative_url }}">UE</a>, the AUSF is very important for the security of the network. The AUSF is responsible of implement increased home control when performing the <a href="{{ "/docs/aka/" | relative_url }}">authentication and key agreement</a> procedure.

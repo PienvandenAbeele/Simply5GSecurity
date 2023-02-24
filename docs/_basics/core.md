@@ -11,7 +11,7 @@ The 5G Core Network (5GC) is the next-generation core network for 5G network. An
 <div class="row">
     <div style="text-align: justify" class="col-md-4">
     <br>
-        In both planes the core consist of so-called network functions (NF) to support a wide range of services to other network functions. A common perspective on the core network architecture is the service-based architecture. In this architecture each of the network functions offer a service end point and the network functions communicate via a message bus to the services end points accordingly. 
+        In both planes the core consist of so-called <strong>network functions</strong> (NF) to support a wide range of services to other network functions. A common perspective on the core network architecture is the service-based architecture. In this architecture each of the network functions offer a service end point and the network functions communicate via a message bus to the services end points accordingly. 
     <br>
     </div>
     <div class="col-md-8">
@@ -24,4 +24,4 @@ Both the user-control plane separation and the use of the network functions have
 
 While this gives more flexibility and scaling options, it also brings security concerns. Since the control-plane is now software-based, if something is misconfigured or there is a vulnerability in the Core, attackers can now access the core from a distance, instead of having to be at the hardware. To avoid this, we want to educate people on the security risks, see <a href="{{ "/docs/reqintro/" | relative_url }}">5G Security</a>, for more details.
 
-For now, we move on to the Network Functions and what each of them does!
+For now, we move on to the network functions and what each of them does!

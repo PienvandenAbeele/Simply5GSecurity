@@ -9,7 +9,7 @@ permalink: /docs/nrf/
 <div class="row">
     <div style="text-align: justify" class="col-md-5">
         <br>
-        The Network Repository Function (NRF) keeps track of all the NFs. NFs will register at the NRF and then when a NF needs to talk to another NF, the NRF allows them to discover each other.
+        The Network Repository Function (NRF) keeps track of all the <a href="{{ "/docs/core/" | relative_url }}">network functions (NFs)</a>. NFs will register at the NRF and then when a NF needs to talk to another NF, the NRF allows them to discover each other.
     </div>
     <div class="col-md-7">
         <img src="{{ "/assets/img/5gbasics/nrf_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
@@ -20,9 +20,9 @@ permalink: /docs/nrf/
     <div style="text-align: justify" class="col-md-6">
         <h3>Interaction with other NFs</h3>
         <h5> Consumes services from:</h5>
-        UDM, AMF, SMF, UDR, AUSF, UPF
+        <a href="{{ "/docs/udr/" | relative_url }}">UDR</a>
         <h5> Provides services to:</h5>
-        UDR
+        <a href="{{ "/docs/udmM/" | relative_url }}">UDM</a>, <a href="{{ "/docs/amf/" | relative_url }}">AMF</a>, <a href="{{ "/docs/smf/" | relative_url }}">SMF</a>, <a href="{{ "/docs/udr/" | relative_url }}">UDR</a>, <a href="{{ "/docs/ausf/" | relative_url }}">AUSF</a>, <a href="{{ "/docs/upf/" | relative_url }}">UPF</a>
         <br>
         <br>
         <br>

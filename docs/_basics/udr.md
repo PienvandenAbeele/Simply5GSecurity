@@ -8,7 +8,7 @@ permalink: /docs/udr/
 
 <div class="row">
     <div style="text-align: justify" class="col-md-5">
-        The UDR (Unified Data Repository) is a central database that stores data about the network and its subscribers. It is used by various network functions for authentication, authorisation, billing, and policy management. The UDR is closely related to UDM, which is responsible for the generation of the authentication token. Further, the UDM stores important information about the registered network functions at the NRF. 
+        The UDR (Unified Data Repository) is a central database that stores data about the network and its subscribers. It is used by various network functions for authentication, authorisation, billing, and policy management. The UDR is closely related to <a href="{{ "/docs/udm/" | relative_url }}">UDM</a>, which is responsible for the generation of the authentication token. Further, the UDR stores important information about the registered network functions at the <a href="{{ "/docs/nrf/" | relative_url }}">NRF</a>. 
     </div>
     <div class="col-md-7">
         <img src="{{ "/assets/img/5gbasics/udr_sba.png" | relative_url }}" alt="5G Overview" class="img-responsive center">
@@ -19,9 +19,9 @@ permalink: /docs/udr/
     <div style="text-align: justify" class="col-md-6">
         <h3>Interaction with other NFs</h3>
         <h5> Consumes services from:</h5>
-        NRF
+        <a href="{{ "/docs/nrf/" | relative_url }}">NRF</a>
         <h5> Provides services to:</h5>
-        UDM, NRF
+        <a href="{{ "/docs/udm/" | relative_url }}">UDM</a>, <a href="{{ "/docs/nrf/" | relative_url }}">NRF</a>
         <br>
         <br>
         <br>
