@@ -19,9 +19,9 @@ permalink: /docs/amf/
     <div style="text-align: justify" class="col-md-6">
         <h3>Interaction with other NFs</h3>
         <h5> Consumes services from:</h5>
-        NRF, AUSF, UDM, SMF
+        <a href="{{ "/docs/NRF/" | relative_url }}">NRF</a>, <a href="{{ "/docs/ausf/" | relative_url }}">AUSF</a>, <a href="{{ "/docs/udm/" | relative_url }}">UDM</a>, <a href="{{ "/docs/smf/" | relative_url }}">SMF</a>
         <h5> Provides services to:</h5>
-        SMF, AMF
+        <a href="{{ "/docs/smf/" | relative_url }}">SMF</a>, <a href="{{ "/docs/amf/" | relative_url }}">AMF</a>
         <br>
         <br>
         <br>
